@@ -7,8 +7,8 @@ import java.util.Scanner;
 public class FileNotFound {
     public static void main(String[] args) {
         try {
-            // Specify the path to the file
-            String filePath = "C:/Users/FELCY/Desktop/JAT_MARCH/Task_11/Test1.txt"; // Update with your file path
+           
+            String filePath = "C:/Users/FELCY/Desktop/JAT_MARCH/Task_11/Test1.txt"; // the input file path
 
             // Attempt to open the file
             File file = new File(filePath);
