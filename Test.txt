@@ -1,0 +1,24 @@
+In Java, errors and exceptions are both types of throwable objects, but they represent different types of problems that can occur during the execution of a program.
+Errors are usually caused by serious problems that are outside the control of the program, such as running out of memory or a system crash. Errors are represented by the Error class and its subclasses. Some common examples of errors in Java include:
+●	OutOfMemoryError: Thrown when the Java Virtual Machine (JVM) runs out of memory.
+●	StackOverflowError: Thrown when the call stack overflows due to too many method invocations.
+●	NoClassDefFoundError: Thrown when a required class cannot be found.
+Since errors are generally caused by problems that cannot be recovered from, it’s usually not appropriate for a program to catch errors. Instead, the best course of action is usually to log the error and exit the program.
+Exceptions, on the other hand, are used to handle errors that can be recovered from within the program. Exceptions are represented by the Exception class and its subclasses.
+●	NullPointerException: Thrown when a null reference is accessed.
+●	IllegalArgumentException: Thrown when an illegal argument is passed to a method.
+●	IOException: Thrown when an I/O operation fails.
+Since exceptions can be caught and handled within a program, it’s common to include code to catch and handle exceptions in Java programs. By handling exceptions, you can provide more informative error messages to users and prevent the program from crashing.
+
+Exception
+●	Exception is an event that occurs during the execution of a program that disrupts the normal flow of the program's instructions.
+●	Exceptions can be recovered by using try-catch block.
+●	Exceptions are classified into two types: checked exceptions and unchecked exceptions.
+●	Checked exceptions are the exceptions that are checked at compile time.
+●	Unchecked exceptions are the exceptions that are not checked at compile time.
+Error
+●	Error is a serious problem that occurs during the execution of a program, that disrupts the normal flow of the program's instructions.
+●	Error cannot be recovered by using try-catch block.
+●	Errors are classified into two types: fatal errors and non-fatal errors.
+●	Fatal errors are the errors that terminate the program.
+●	Non-fatal errors are the errors that do not terminate the program.
